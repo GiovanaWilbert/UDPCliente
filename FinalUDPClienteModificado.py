@@ -61,5 +61,5 @@ for message_id in message_ids:
     send_message_with_ack(message, message_id)
     time.sleep(0.01)  # Pequeno delay para impedir de sobrecarregar o sevidor
 
-print("Cliente enviou  1000 messages")
+print("Cliente enviou  1000 messagens")
 client_socket.close()
