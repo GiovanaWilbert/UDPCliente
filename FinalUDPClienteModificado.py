@@ -55,7 +55,7 @@ def send_message_with_ack(message, message_id):
             print(f"Sem ACK da mensagem {message_id}, reenviando")
             congestion_control(success=False)
 
-# Enviar mensagens fora de ordem
+# Envio de 1000 mensagens, incluindo algumas fora de ordem
 for message_id in message_ids:
     message = f"{message_id} Message {message_id} from client"
     send_message_with_ack(message, message_id)
