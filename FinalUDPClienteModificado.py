@@ -14,7 +14,7 @@ total_messages = 1000
 
 # Lista de mensagens IDs
 message_ids = list(range(1, total_messages + 1))
-#Simulating messages out of order
+#Simulando mensagens fora de ordem
 message_ids[8] = 11
 message_ids[10] = 9
 message_ids[996] = 999
